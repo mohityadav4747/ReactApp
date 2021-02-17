@@ -13,10 +13,11 @@ code {
 }
 a{
   padding: 10px;
-  background-color:lawngreen;
+  background-color:rgb(245, 190, 236);
   height: 30px;
   width: 500px;
   display: inline-block;
   inline-size: 320px;
   margin-bottom: 50px;
+  text-align: center;
 }

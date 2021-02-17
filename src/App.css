@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url(https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -42,8 +48,26 @@
   margin-right: auto;
   
 }
-.p {
-    color:lawngreen;
-    text-indent: 30px;
-    text-transform: uppercase;
+  .footer{
+    margin-top: 200px;
+    font-style: italic;
+    font-style: red;
+    
+  }
+  .auth{
+    margin-right: 1000px;
+  }
+  .home{
+    padding:0px ;
+    margin-left: 50px;
+    margin-right: 1100px;
+    height: 50px;
+  }
+  .task{
+    margin-right: 600px;
+    margin-left: 400px;
+    text-align: center; 
+  }
+  .logo{
+    margin-right: 100px;
   }

@@ -1,11 +1,12 @@
-//import logo from './logo.svg';
+import Footer from './component/Footer';
 import './App.css';
 import Logo from './component/Logo';
 import Home from './component/Home';
 import Task from './component/Task';
-import Auth from './component/Auth';
+import User from './component/User';
 import Protected from './component/Protected';
 import Navbar from './component/Navbar';
+//import Login from './component/Login';
 
 
 import {
@@ -18,7 +19,7 @@ import {
 function App() {
   return (
     <div className="App">
-            
+         
       <Router>
         <Navbar/>
         <Switch>
@@ -32,12 +33,14 @@ function App() {
           <Route path="/Task">
           <Task/>
           </Route>
+      
           <Route path="/">
-            <Auth/>
+            <User/>
           </Route>
         </Switch>
         
       </Router>
+      <Footer/>
     </div>
   );
 }
