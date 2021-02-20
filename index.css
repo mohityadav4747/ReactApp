@@ -1,0 +1,36 @@
+* {
+ box-sizing: border-box;
+}
+body {
+
+   min-height: 100vh;
+   display: flex;
+   font-weight: 400;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira sans',sans-serif;
+}
+body{
+background-image: url(https://img.lovepik.com/photo/50102/7448.jpg_wh860.jpg);  
+}
+body,html, .App,  auth-wrapper{
+  width: 80%;
+  height: 100%;
+
+}
+.navbar-light {
+  background-color: rgb(211, 70, 128);
+  box-shadow: 0px 14px 80px rgba(23, 33, 228, 0.2);
+}
+
+.auth-inner {
+   margin: 100px;
+}
+.table{
+  padding-left: 100px;
+  margin-right: 500px;
+  background-color: white;
+}
